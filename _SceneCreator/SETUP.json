@@ -6,5 +6,5 @@
      "engine": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
      "template": "C:\\_SceneCreator\\Template",
      "script": "C:\\_SceneCreator\\Python\\create.py",
-     "output": "C:\\_SceneCreator\\Output"
+     "output": "C:\\_SceneCreator\\Output" 
 }

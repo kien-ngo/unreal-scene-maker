@@ -1,7 +1,7 @@
 @ECHO off
 setlocal enableDelayedExpansion
 
-::Parse SETUP.json
+::Parse SETUP.json----------------------------------------------------------
 set setup=
 for /f "delims=" %%x in (SETUP.json) do set "setup=!setup!%%x"
 
@@ -13,6 +13,8 @@ rem Change colon+space by equal-sign
 set "setup=%setup:: ==%"
 rem Separate parts at comma into individual assignments
 set "%setup:, =" & set "%"
+
+::---------------------------------------------------------------------------
 
 ::Get the project name from the first line of SETUP.txt
 set projectname=%name%_%version%
@@ -32,7 +34,8 @@ IF EXIST %template% (
     xcopy /s /i %template% %projectDirectory% /Y
 )
 
-:: Rename Plugin Folder
+:: Rename Plugin Folder-------------------------------------------------------
+
 set dlcName=DLC_%name%
 set pluginPath=%projectDirectory%\\Plugins\\
 set templatePlugin=%pluginPath%DLC_Scene
@@ -42,10 +45,11 @@ ren %newPlugin%\\DLC_Scene.uplugin %dlcName%.uplugin
 
 echo %newPlugin%\\%dlcName%.uplugin
 
-set enginepath=%engine:\\=\%
+:: Fires python script to import datasmith-----------------------------------
 
-:: Fires python script to import datasmith
+set enginepath=%engine:\\=\%
 "%enginepath%" %projectPath% -run=pythonscript -script=%script%
 
+::---------------------------------------------------------------------------
 
 pause
