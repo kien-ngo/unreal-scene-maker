@@ -14,7 +14,7 @@ f.close()
 structure_ds = unreal.DatasmithSceneElement.construct_datasmith_scene_from_file(structure)
 
 if structure_ds is None:
-    print ".udatasmith file is invalid."
+    print(".udatasmith file is invalid.")
     quit()
 
 # Get import options.
@@ -27,11 +27,11 @@ structure_ds_import_options.base_options.scene_handling = unreal.DatasmithImport
 structure_scene = structure_ds.import_scene("/Game/")
 
 if not structure_scene.import_succeed:
-    print "Importing structure datasmith scene failed."
+    print("Importing structure datasmith scene failed.")
     quit()
 
 # Clean up the Datasmith Scene.
 structure_ds.destroy_scene()
-print "Importing structure datasmith complete!"
+print("Importing structure datasmith complete!")
 
 
