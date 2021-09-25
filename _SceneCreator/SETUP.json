@@ -1,0 +1,10 @@
+{
+     "name": "KienStructure",
+     "version": 10.0,
+     "structure": "M:\\4387_Aareas_Vignette Scenes\\4387G_300 Series 24\\LIGHTMAPPING14\\RENDER-IMAGE-MAX-AND-INI\\4387g_300_series_24_14-webgl_8Sept2021131922\\4387g_300_series_24_14-webgl_8Sept2021131922.udatasmith",
+     "furniture": "M:\\4387_Aareas_Vignette Scenes\\4387G_300 Series 24\\LIGHTMAPPING14\\RENDER-IMAGE-MAX-AND-INI\\4387g_300_series_24_14-webgl_8Sept2021131922\\FURNITURE.udatasmith",
+     "engine": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+     "template": "C:\\_SceneCreator\\Template",
+     "script": "C:\\_SceneCreator\\Python\\create.py",
+     "output": "C:\\_SceneCreator\\Output"
+}
