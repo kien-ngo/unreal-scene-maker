@@ -33,12 +33,6 @@ IF EXIST %template% (
 )
 
 :: Rename Plugin Folder
-set dlcName=DLC_%name%
-set pluginPath=%projectDirectory%\\Plugins\\
-set templatePlugin=%pluginPath%DLC_Scene
-set newPlugin=%pluginPath%%dlcName%
-ren %templatePlugin% %dlcName%
-ren %newPlugin%\\DLC_Scene.uplugin %dlcName%.uplugin
 
 echo %newPlugin%\\%dlcName%.uplugin
 
