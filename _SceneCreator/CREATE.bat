@@ -34,9 +34,6 @@ IF EXIST %template% (
     xcopy /s /i %template% %projectDirectory% /Y
 )
 
-<<<<<<< HEAD
-:: Rename Plugin Folder
-=======
 :: Rename Plugin Folder-------------------------------------------------------
 
 set dlcName=DLC_%name%
@@ -45,7 +42,6 @@ set templatePlugin=%pluginPath%DLC_Scene
 set newPlugin=%pluginPath%%dlcName%
 ren %templatePlugin% %dlcName%
 ren %newPlugin%\\DLC_Scene.uplugin %dlcName%.uplugin
->>>>>>> 765b41bb455cbca692b3ae5077aaba33833bdfea
 
 echo %newPlugin%\\%dlcName%.uplugin
 
