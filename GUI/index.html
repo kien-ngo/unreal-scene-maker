@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <title>Unreal Scene Creator</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div id="mainContent">
+
+    <div class="form-item">
+      <label>Project Name
+        <span class="formbuilder-required">*</span>
+      </label>
+      <input type="text" placeholder="ex: 4378H_Ensuite_abc123" name="project_name" id="project_name" required="required">
+    </div>
+
+
+    <div class="form-item">
+      <label>Version
+        <span class="formbuilder-required">*</span>
+      </label>
+      <input type="text" placeholder="ex: 10.0" name="project_version" id="project_version" required="required">
+    </div>
+
+
+    <div class="form-item">
+      <label>Scene Datasmith File
+        <span class="formbuilder-required">*</span>
+      </label>
+      <button id="scene_datasmith_btn">Select .udatasmith file</button>
+      <p id="selected_scene_datasmith_path"></p>
+    </div>
+
+
+    <div class="form-item">
+      <label>Furniture Datasmith File</label>
+      <button id="furniture_datasmith_btn">Select .udatasmith file</button>
+      <p id="selected_furniture_datasmith_path"></p>
+    </div>
+
+
+    <div class="form-item">
+      <label>Unreal Version
+        <span class="formbuilder-required">*</span></label>
+      <select name="unreal-version" id="unreal-version" required="required" aria-required="true">
+        <option value="4.26" selected="true" id="unreal-version-0">4.26</option>
+        <!-- <option value="4.27" id="unreal-version-1">4.27</option>
+        <option value="5.0" id="unreal-version-2">5.0</option> -->
+      </select>
+    </div>
+
+
+    <div class="form-item">
+      <label>Template Folder (Optional)</label>
+      <button id="template_folder_button">Select output folder</button>
+      <p id="template_folder_text">./Template</p>
+    </div>
+
+
+    <div class="form-item">
+      <label>Output Folder
+        <span class="formbuilder-required">*</span>
+      </label>
+      <button id="output_folder_button">Select output folder</button>
+      <p id="output_folder_text"></p>
+    </div>
+
+
+    <div class="form-item">
+      <button type="button" name="createSceneButton" id="createSceneButton">Create scene</button>
+    </div>
+
+    <!-- <button id="debug_button">DEBUG</button> -->
+  </div>
+
+  <!-- You can also require other files to run in this process -->
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
