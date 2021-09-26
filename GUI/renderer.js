@@ -24,8 +24,11 @@ const TEMPLATE_FOLDER_TEXT = document.getElementById('template_folder_text');
 
 const DEBUG_BUTTON = document.getElementById('debug_button');
 
+const DAM_SCENE_ID_INPUT = document.getElementById('dam_scene_id');
+
 // Global variables
 let PROJECT_NAME = '';
+let DAM_SCENE_ID = '';
 let PROJECT_VERSION = '';
 let UNREAL_VERSION = '4.26';
 let UNREAL_PATH = '';
@@ -38,6 +41,7 @@ const IS_TESTING = true;
 
 function createUnrealScene() {
     if (!validateProjectName()) return;
+    if (!validateDamSceneId()) return;
     if (!validateProjectVersion()) return;
     if (!validateUnrealVersion()) return;
     if (!validateSceneDataSmithPath()) return;
@@ -53,20 +57,36 @@ function createUnrealScene() {
 
     // copy the template files over
     try {
-        fs.copySync(TEMPLATE_FOLDER_PATH, newProjectPath);
-        console.log('success!');
-        const unrealProjectFileName = findUnrealProjectFile(newProjectPath);
-
-        // Create DLC Path
-        // fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}`);
-        // fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps`);
-        // fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps\\Main`);
-        fs.writeFileSync('config.json', JSON.stringify(jsonContent, null, 4));
-        fs.writeFileSync(
-            'run.bat', 
-            `"${UNREAL_PATH}" "${newProjectPath}\\${unrealProjectFileName}" -run=pythonscript -script="${__dirname}/create_scene.py"`
-        );
-        openBatchFile('run.bat');
+        const files = fs.readdirSync(TEMPLATE_FOLDER_PATH);
+        if (files.includes('Plugins')) {
+            const pluginFiles = fs.readdirSync(TEMPLATE_FOLDER_PATH + '/Plugins/');
+            console.log(pluginFiles);
+            if (pluginFiles.length) {
+                const DLC_name = pluginFiles.find(name => name.startsWith('DLC_'));
+                if (DLC_name) {
+                    fs.copySync(TEMPLATE_FOLDER_PATH, newProjectPath);
+                    const currentDlcPath = newProjectPath + `\\Plugins\\${DLC_name}`;
+                    const newDlcPath = newProjectPath + `\\Plugins\\DLC_${PROJECT_NAME}`;
+                    fs.renameSync(currentDlcPath, newDlcPath);
+                    const unrealProjectFileName = findUnrealProjectFile(newProjectPath);
+                    fs.writeFileSync('config.json', JSON.stringify(jsonContent, null, 4));
+                    fs.writeFileSync(
+                        'run.bat', 
+                        `"${UNREAL_PATH}" "${newProjectPath}\\${unrealProjectFileName}" -run=pythonscript -script="${__dirname}/create_scene.py"`
+                    );
+                    openBatchFile('run.bat');
+                }
+                else {
+                    alert('Cannot find DLC Folder. Aborted')
+                }
+            }
+            else {
+                alert('Plugins folder empty');
+            }
+        }
+        else {
+            alert('Selected template does not have Plugins. Aborted')
+        }
     } 
     catch (err) {
         console.error(err)
@@ -158,6 +178,23 @@ FURNITURE_DATASMITH_BTN.addEventListener('click', () => {
 CREATE_SCENE_BUTTON.addEventListener('click', () => {
     createUnrealScene();
 });
+
+function validateDamSceneId() {
+    try {
+        let damSceneId = parseInt(DAM_SCENE_ID_INPUT.value);
+        if (!isNaN(damSceneId)) {
+            return true;
+        }
+        else {
+            alert('Invalid DAM Scene id');
+            return false;
+        }
+    }
+    catch(err) {
+        alert(err);
+        return false;
+    }
+}
 
 function validateProjectName() {
     const projectName = PROJECT_NAME_INPUT.value;
