@@ -1,7 +1,10 @@
 // Plugins
-const fs = require('fs');
+const fs = require('fs-extra')
+const { shell } = require('electron');
 const { ipcRenderer } = require('electron');
+const path = require("path");
 
+// const { PythonShell } = require('python-shell');
 // HTML Elements
 const PROJECT_NAME_INPUT = document.getElementById('project_name');
 const PROJECT_VERSION_INPUT = document.getElementById('project_version');
@@ -32,6 +35,44 @@ let SCENE_DATASMITH_PATH = '';
 let FURNITURE_DATASMITH_PATH = '';
 let OUTPUT_FOLDER_PATH = '';
 const IS_TESTING = true;
+
+
+function createUnrealScene() {
+    if (!validateProjectName()) return;
+    if (!validateProjectVersion()) return;
+    if (!validateUnrealVersion()) return;
+    if (!validateSceneDataSmithPath()) return;
+    if (!validateOutputFolder()) return;
+    console.log('------------------------------');
+    console.log('All requirements checked. Generating scene...');
+    const jsonContent = generateJsonContent();
+    console.log('json content: ', jsonContent);
+    const newProjectPath = `${OUTPUT_FOLDER_PATH}\\${PROJECT_NAME}`;
+
+    // create new folder for the new project
+    fs.mkdirSync(newProjectPath);
+
+    // copy the template files over
+    try {
+        fs.copySync(TEMPLATE_FOLDER_PATH, newProjectPath);
+        console.log('success!');
+        const unrealProjectFileName = findUnrealProjectFile(newProjectPath);
+        fs.writeFileSync('config.json', JSON.stringify(jsonContent, null, 4));
+        fs.writeFileSync(
+            'run.bat', 
+            `"${UNREAL_PATH}" "${newProjectPath}\\${unrealProjectFileName}" -run=pythonscript -script="${__dirname}/create_scene.py"`
+        );
+        openBatchFile('run.bat');
+    } 
+    catch (err) {
+        console.error(err)
+    }
+}
+
+function findUnrealProjectFile(path) {
+    files = fs.readdirSync(path, { withFileTypes: false });
+    return files.find(name => name.endsWith('.uproject'));
+}
 
 // DEBUG_BUTTON.addEventListener('click', () => {
 //     ipcRenderer.send('request-mainprocess-action', {message: 'open-console-debugger'});
@@ -72,16 +113,8 @@ OUTPUT_FOLDER_BTN.addEventListener('click', () => {
     }
     ipcRenderer.on('save-output-folder-path', (event, arg) => {
         console.log('Output folder path: ', arg);
-        const files = fs.readdirSync(arg, { withFileTypes: false });
-        console.log(files)
-        if (files.length) {
-          alert('The folder you selected contains another files. Please select another folder, or create an empty one');
-        }
-        else {
-            OUTPUT_FOLDER_PATH = arg;
-            OUTPUT_FOLDER_TEXT.innerHTML = arg;
-        }
-        
+        OUTPUT_FOLDER_PATH = arg;
+        OUTPUT_FOLDER_TEXT.innerHTML = arg;
     });
     ipcRenderer.send('request-mainprocess-action', data);
 });
@@ -122,20 +155,6 @@ CREATE_SCENE_BUTTON.addEventListener('click', () => {
     createUnrealScene();
 });
 
-function createUnrealScene() {
-    if (!validateProjectName()) return;
-    if (!validateProjectVersion()) return;
-    // if (!validateUnrealVersion()) return;
-    if (!validateSceneDataSmithPath()) return;
-    if (!validateOutputFolder()) return;
-    console.log('------------------------------');
-    console.log('All requirements checked. Generating scene...');
-    const jsonContent = generateJsonContent();
-    console.log('json content: ', jsonContent);
-    // create json file
-    fs.writeFileSync('config.json', JSON.stringify(jsonContent, null, 4));
-}
-
 function validateProjectName() {
     const projectName = PROJECT_NAME_INPUT.value;
     if (!projectName) {
@@ -156,20 +175,20 @@ function validateProjectVersion() {
     return true;
 }
 
-// function validateUnrealVersion() {
-//     const unrealVersion = PROJECT_UNREAL_VERSION_OPTION.value;
-//     const path = `C:\\Program Files\\Epic Games\\UE_${unrealVersion}\\Engine\\Binaries\\Win64\\UE4Editor.exe`;
-//     if (fs.existsSync(path)) {
-//         console.log('Unreal version is valid. ', unrealVersion);
-//         UNREAL_PATH = path;
-//         UNREAL_VERSION = unrealVersion;
-//         return true;
-//     } 
-//     else {
-//         alert('Cannot find unreal version ' + unrealVersion + '. Custom installation is not supported');
-//         return false;
-//     }
-// }
+function validateUnrealVersion() {
+    const unrealVersion = PROJECT_UNREAL_VERSION_OPTION.value;
+    const path = `C:\\Program Files\\Epic Games\\UE_${unrealVersion}\\Engine\\Binaries\\Win64\\UE4Editor.exe`;
+    if (fs.existsSync(path)) {
+        console.log('Unreal version is valid. ', unrealVersion);
+        UNREAL_PATH = path;
+        UNREAL_VERSION = unrealVersion;
+        return true;
+    } 
+    else {
+        alert('Cannot find unreal version ' + unrealVersion + '. Custom installation is not supported');
+        return false;
+    }
+}
 
 function validateSceneDataSmithPath() {
     if (!SCENE_DATASMITH_PATH) {
@@ -184,7 +203,14 @@ function validateOutputFolder() {
         alert('Please select an output folder');
         return false;
     }
-    return true;
+    const newProjectPath = `${OUTPUT_FOLDER_PATH}\\${PROJECT_NAME}`;
+    if (fs.existsSync(newProjectPath)) {
+        alert(`The path [${newProjectPath}] already exists. Please select another path, or change the project name`);
+        return false;
+    }
+    else {
+        return true;
+    }
 }
 
 function checkIfDatasmithFilesAreDuplicated() {
@@ -196,6 +222,7 @@ function generateJsonContent() {
     return {
         name: PROJECT_NAME,
         version: PROJECT_VERSION,
+        scenes: [SCENE_DATASMITH_PATH, FURNITURE_DATASMITH_PATH].filter(item => !!item),
         structure: SCENE_DATASMITH_PATH,
         furniture: FURNITURE_DATASMITH_PATH,
         engine: UNREAL_PATH,
@@ -203,3 +230,22 @@ function generateJsonContent() {
         output: OUTPUT_FOLDER_PATH
     }
 }
+
+function openBatchFile(path) {
+    shell.openPath(path);
+}
+
+// function callCreateScenePython(json) {
+//     let pyshell = new PythonShell('create_scene.py');
+//     pyshell.send(JSON.stringify(json))
+//     pyshell.on('message', function(message) {
+//         console.log(message);
+//     });
+
+//     pyshell.end(function (err) {
+//         if (err){
+//             throw err;
+//         };
+//         console.log('create_scene.py finished');
+//     });
+// }

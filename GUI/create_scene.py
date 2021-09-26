@@ -1,37 +1,84 @@
 import unreal
 import json
+from pathlib import Path
 
-f = open('C:\\_SceneCreator\\SETUP.json',)
-json = json.load(f)
+# Method to create a new unreal level inside Maps/Main and load it then begin importing scenes
+def create():
+    setup_json = open(str(Path(__file__).parent.absolute()) + '/config.json',)
+    setup = json.load(setup_json)
+    setup_json.close()
+  
+    levelName = "/DLC_" + setup["name"] + "/Maps/Main"
+    loadSuccess = unreal.EditorLevelLibrary().load_level(levelName)   
+    if not loadSuccess:
+        print ("Loading Map failed!")
 
-name = json["name"] + '_' + str(json["version"])
-structure = json["structure"]
-furniture = json["furniture"]
-output = json["output"]
+    # Import all .udatasmith content from setup.json  
+    for scene in setup["scenes"]:
+        #scene != setup["scenes"][0]
+        import_datasmith_scene(setup["name"], scene, True)
+            
+    # Save all content
+    unreal.EditorLoadingAndSavingUtils.save_dirty_packages(True, True)
 
-f.close()
+# Method to import .udatasmith content inside Maps/Main
+def import_datasmith_scene(plugin_name, datasmithPath, includeMaterials):
+    # Prepare the datasmith content in memory
+    datasmith_scene = unreal.DatasmithSceneElement.construct_datasmith_scene_from_file(datasmithPath)
 
-structure_ds = unreal.DatasmithSceneElement.construct_datasmith_scene_from_file(structure)
+    if datasmith_scene is None :
+        print ("Scene loading failed for " + datasmithPath)
+        return
 
-if structure_ds is None:
-    print(".udatasmith file is invalid.")
-    quit()
+    #OPTIONS FOR DATASMITH IMPORT-------------------------------------------------------------------------------------------------
+    # Prepare any settings - set the scene handling to only import assets and to not create a map
+    import_options = datasmith_scene.get_options(unreal.DatasmithImportOptions)
 
-# Get import options.
-structure_ds_import_options = structure_ds.get_options(unreal.DatasmithImportOptions)
+    #include_animation (bool): [Read-Write] Specifies whether or not to import animations
+    import_options.base_options.include_animation = False
     
-# Set import options.
-structure_ds_import_options.base_options.scene_handling = unreal.DatasmithImportScene.NEW_LEVEL
+    #include_camera (bool): [Read-Write] Specifies whether or not to import cameras
+    import_options.base_options.include_camera = False
+    
+    #include_geometry (bool): [Read-Write] Specifies whether or not to import geometry
+    import_options.base_options.include_geometry = True
+    
+    #include_light (bool): [Read-Write] Specifies whether or not to import lights
+    import_options.base_options.include_light = False
+    
+    #include_material (bool): [Read-Write] Specifies whether or not to import materials and textures
+    import_options.base_options.include_material = includeMaterials
+    
+    #scene_handling (DatasmithImportScene): [Read-Write] Specifies where to put the content 
+    import_options.base_options.scene_handling = unreal.DatasmithImportScene.CURRENT_LEVEL
+    
+    #STATIC MESH OPTIONS FOR DATASMITH IMPORT-----------------------------------------------------------------------------------
 
-# Your destination folder must start with /Game/
-structure_scene = structure_ds.import_scene("/Game/")
+    #static_mesh_options (DatasmithStaticMeshImportOptions): [Read-Write] Static Mesh Options
+    #static_mesh_options = import_options.base_options.static_mesh_options
 
-if not structure_scene.import_succeed:
-    print("Importing structure datasmith scene failed.")
-    quit()
+    #generate_lightmap_u_vs (bool): [Read-Write] Generate Lightmap UVs
+    #static_mesh_options.generate_lightmap_u_vs = True
 
-# Clean up the Datasmith Scene.
-structure_ds.destroy_scene()
-print("Importing structure datasmith complete!")
+    #max_lightmap_resolution (DatasmithImportLightmapMax): [Read-Write] Maximum resolution for auto-generated lightmap UVs
+    #static_mesh_options.max_lightmap_resolution = unreal.DatasmithImportLightmapMax.LIGHTMAP_1024
+    
+    #min_lightmap_resolution (DatasmithImportLightmapMin): [Read-Write] Minimum resolution for auto-generated lightmap UVs
+    #static_mesh_options.min_lightmap_resolution = unreal.DatasmithImportLightmapMin.LIGHTMAP_16
+    
+    #remove_degenerates (bool): [Read-Write] Remove Degenerates
+    #static_mesh_options.remove_degenerates = False
+    
+    #---------------------------------------------------------------------------------------------------------------------------
+    
+    # Import all content inside a 'Datasmith' within the Plugin content directory
+    result = datasmith_scene.import_scene("/DLC_" + plugin_name + "/Datasmith")
 
+    if not result.import_succeed:
+        print ("Importing datasmith scene failed for " + datasmithPath)
+        return
 
+    # After import, remove scene in memory
+    datasmith_scene.destroy_scene()
+
+create()
