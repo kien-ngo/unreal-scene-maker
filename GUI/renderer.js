@@ -58,9 +58,9 @@ function createUnrealScene() {
         const unrealProjectFileName = findUnrealProjectFile(newProjectPath);
 
         // Create DLC Path
-        fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}`);
-        fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps`);
-        fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps\\Main`);
+        // fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}`);
+        // fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps`);
+        // fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps\\Main`);
         fs.writeFileSync('config.json', JSON.stringify(jsonContent, null, 4));
         fs.writeFileSync(
             'run.bat', 
