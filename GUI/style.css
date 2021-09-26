@@ -21,6 +21,11 @@
     font-size: 14px;
 }
 
+.link-block {
+  border: 1px solid black;
+  padding: 7px;
+}
+
 #selected_scene_datasmith_path, 
 #selected_furniture_datasmith_path, 
 #output_folder_text,
