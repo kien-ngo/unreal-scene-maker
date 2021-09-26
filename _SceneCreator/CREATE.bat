@@ -14,9 +14,7 @@ set "setup=%setup:: ==%"
 rem Separate parts at comma into individual assignments
 set "%setup:, =" & set "%"
 
-::---------------------------------------------------------------------------
-
-::Get the project name from the first line of SETUP.txt
+::Get the project name from the first line of SETUP.txt----------------------
 set projectname=%name%_%version%
 
 ::Set output path for where to save the created unreal project
@@ -30,26 +28,22 @@ IF EXIST %output% (
 md %output%
 
 :: Clone template unreal project into output folder
-IF EXIST %template% (
-    xcopy /s /i %template% %projectDirectory% /Y
+IF EXIST %template%%name% (
+    xcopy /s /i %template%%name% %projectDirectory% /Y
 )
 
 :: Rename Plugin Folder-------------------------------------------------------
 
-set dlcName=DLC_%name%
-set pluginPath=%projectDirectory%\\Plugins\\
-set templatePlugin=%pluginPath%DLC_Scene
-set newPlugin=%pluginPath%%dlcName%
-ren %templatePlugin% %dlcName%
-ren %newPlugin%\\DLC_Scene.uplugin %dlcName%.uplugin
+::set dlcName=DLC_%name%
+::set pluginPath=%projectDirectory%\\Plugins\\
+::set templatePlugin=%pluginPath%DLC_Scene
+::set newPlugin=%pluginPath%%dlcName%
+::ren %templatePlugin% %dlcName%
+::ren %newPlugin%\\DLC_Scene.uplugin %dlcName%.uplugin
 
-echo %newPlugin%\\%dlcName%.uplugin
-
-:: Fires python script to import datasmith-----------------------------------
+:: Fires python script--------------------------------------------------------
 
 set enginepath=%engine:\\=\%
 "%enginepath%" %projectPath% -run=pythonscript -script=%script%
 
-::---------------------------------------------------------------------------
-
-pause
+::----------------------------------------------------------------------------
