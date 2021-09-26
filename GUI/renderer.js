@@ -2,7 +2,6 @@
 const fs = require('fs-extra')
 const { shell } = require('electron');
 const { ipcRenderer } = require('electron');
-const path = require("path");
 
 // const { PythonShell } = require('python-shell');
 // HTML Elements
@@ -57,6 +56,11 @@ function createUnrealScene() {
         fs.copySync(TEMPLATE_FOLDER_PATH, newProjectPath);
         console.log('success!');
         const unrealProjectFileName = findUnrealProjectFile(newProjectPath);
+
+        // Create DLC Path
+        fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}`);
+        fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps`);
+        fs.mkdirSync(`${newProjectPath}\\DLC_${PROJECT_NAME}\\Maps\\Main`);
         fs.writeFileSync('config.json', JSON.stringify(jsonContent, null, 4));
         fs.writeFileSync(
             'run.bat', 
@@ -74,9 +78,9 @@ function findUnrealProjectFile(path) {
     return files.find(name => name.endsWith('.uproject'));
 }
 
-// DEBUG_BUTTON.addEventListener('click', () => {
-//     ipcRenderer.send('request-mainprocess-action', {message: 'open-console-debugger'});
-// });
+DEBUG_BUTTON.addEventListener('click', () => {
+    ipcRenderer.send('request-mainprocess-action', {message: 'open-console-debugger'});
+});
 
 TEMPLATE_FOLDER_BUTTON.addEventListener('click', () => {
     const data = {

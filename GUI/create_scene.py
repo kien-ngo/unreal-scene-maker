@@ -2,12 +2,15 @@ import unreal
 import json
 from pathlib import Path
 
+PYTHON_BASE_PATH = str(Path(__file__).parent.absolute())
+UNREAL_BASE_PATH = PYTHON_BASE_PATH.replace('\\', '/')
+
 # Method to create a new unreal level inside Maps/Main and load it then begin importing scenes
 def create():
-    setup_json = open(str(Path(__file__).parent.absolute()) + '/config.json',)
+    setup_json = open(PYTHON_BASE_PATH + '/config.json',)
     setup = json.load(setup_json)
     setup_json.close()
-  
+
     levelName = "/DLC_" + setup["name"] + "/Maps/Main"
     loadSuccess = unreal.EditorLevelLibrary().load_level(levelName)   
     if not loadSuccess:

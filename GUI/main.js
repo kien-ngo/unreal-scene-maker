@@ -50,7 +50,7 @@ const { dialog } = require('electron')
 ipcMain.on('request-mainprocess-action', (event, arg) => {
   console.log('Message from render: ', arg);
   if (arg.message === 'open-console-debugger') {
-    // mainWindow.webContents.openDevTools()
+    BrowserWindow.getAllWindows()[0].webContents.openDevTools()
   }
   else if (arg.message === 'open-scene-datasmith-dialog') {
     dialog.showOpenDialog({
