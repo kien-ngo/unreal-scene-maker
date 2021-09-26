@@ -1,2 +1,6 @@
 Output/
 LightingTemplates/
+node_modules
+/node_modules/
+/GUI/node_modules/
+GUI/node_modules/
