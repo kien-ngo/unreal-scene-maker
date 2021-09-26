@@ -6,3 +6,5 @@ node_modules
 /GUI/node_modules/
 GUI/node_modules/
 GUI/Template
+GUI/run.bat
+GUI/config.json
