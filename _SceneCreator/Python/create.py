@@ -1,5 +1,5 @@
-import unreal
-import json
+import unreal as unreal
+import json as json
 
 # Method to import .udatasmith content inside level [Maps/Main]
 def import_datasmith_scene(plugin_name, datasmithPath, includeMaterials):
@@ -146,7 +146,6 @@ def update_level(sceneID, selectionID, name, movableTags):
 
     # Start scanning and fixing scene actors - fix_name_issues.py
     # This script MUST ALWAYS run before the "movable script", otherwise the name mismatching will cause undesired result
-    import unreal as unreal
 
     nameIssueCount = 0
     nameFixCount = 0
@@ -254,7 +253,6 @@ def apply_api_materials(selectionID, importMaterials, static_mesh_actors):
         # If the SCENE_META_URL returns the correct result (responseStatus === 1) => sceneID is valid. 
         # Then we can import the rest of the plugins
         import urllib.request as fetch
-        import json as json
         
         SURFACE_LIST_URL = 'http://api.aareas.com/api/SceneSaved/GetSurfaceList/' + str(selectionID)
         response = fetch.urlopen(SURFACE_LIST_URL)
