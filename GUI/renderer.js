@@ -39,7 +39,7 @@ let SCENE_META_DATA = [];
 const IS_TESTING = true;
 
 
-function createUnrealScene() {
+function createUnrealScene(exportJson = false) {
     if (!validateProjectName()) return;
     if (!validateDamSceneId()) return;
     if (!validateProjectVersion()) return;
@@ -58,11 +58,14 @@ function createUnrealScene() {
             console.log('All requirements checked. Generating scene...');
             const jsonContent = generateJsonContent();
             console.log('json content: ', jsonContent);
+
+            if (exportJson) {
+                return;
+            }
+
             const newProjectPath = `${OUTPUT_FOLDER_PATH}\\${PROJECT_NAME}`;
-        
             // create new folder for the new project
             fs.mkdirSync(newProjectPath);
-        
             // copy the template files over
             try {
                 const files = fs.readdirSync(TEMPLATE_FOLDER_PATH);
@@ -197,7 +200,7 @@ FURNITURE_DATASMITH_BTN.addEventListener('click', () => {
 });
 
 CREATE_SCENE_BUTTON.addEventListener('click', () => {
-    createUnrealScene();
+    createUnrealScene(false);
 });
 
 function validateDamSceneId() {
