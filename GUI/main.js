@@ -52,9 +52,12 @@ ipcMain.on('request-mainprocess-action', (event, arg) => {
   if (arg.message === 'open-console-debugger') {
     BrowserWindow.getAllWindows()[0].webContents.openDevTools()
   }
+  else if (arg.message === 'showErrorMessage') {
+    dialog.showErrorBox('Error', arg.data);
+  }
   else if (arg.message === 'open-scene-datasmith-dialog') {
     dialog.showOpenDialog({
-      defaultPath: arg.defaultPath || '',
+      // defaultPath: arg.defaultPath || '',
       // Restricting the user to only Text Files. 
       filters: [
         {
@@ -72,7 +75,7 @@ ipcMain.on('request-mainprocess-action', (event, arg) => {
   }
   else if (arg.message === 'open-furniture-datasmith-dialog') {
     dialog.showOpenDialog({
-      defaultPath: arg.defaultPath || '',
+      // defaultPath: arg.defaultPath || '',
       filters: [
         {
           name: 'Custom File Type',
@@ -89,7 +92,7 @@ ipcMain.on('request-mainprocess-action', (event, arg) => {
   }
   else if (arg.message === 'open-output-folder-dialog') {
     dialog.showOpenDialog({
-      defaultPath: arg.defaultPath || '',
+      // defaultPath: arg.defaultPath || '',
       properties: ['openDirectory']
     }).then(result => {
       if (!result.canceled) {
@@ -101,7 +104,7 @@ ipcMain.on('request-mainprocess-action', (event, arg) => {
   }
   else if (arg.message === 'open-template-folder-dialog') {
     dialog.showOpenDialog({
-      defaultPath: arg.defaultPath || '',
+      // defaultPath: arg.defaultPath || '',
       properties: ['openDirectory']
     }).then(result => {
       if (!result.canceled) {
