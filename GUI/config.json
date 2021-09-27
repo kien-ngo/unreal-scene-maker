@@ -1,13 +1,5158 @@
 {
-    "name": "aaaaaaaa",
-    "version": "aasas",
+    "name": "asdasd1",
+    "sceneID": 39772,
+    "sceneMetaData": {
+        "surfaceList": [
+            {
+                "meshName": "Trim16",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_TOE_05",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB TOE",
+                "surfacename": "CAB_TOE_05",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "IslandCountertop02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "ISLANDCOUNTERTOP02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HOOD_0014",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "HOOD_0014",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_FAN",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Hood Fan_Mesh_HOOD_0014",
+                    "name": "Hood Fan_Mesh_HOOD_0014",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8619251225477269,
+                        1.453860493408286,
+                        2.1780075336999243
+                    ],
+                    "Rot": [
+                        5.300000000000026,
+                        152.80000000000027
+                    ],
+                    "Distance": 1.2914340108677451,
+                    "pitch": 5.300000000000026,
+                    "yaw": 152.80000000000027,
+                    "unreal_rot": [
+                        5.300000000000026,
+                        0,
+                        152.80000000000027
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -0.27413707971572876,
+                        "y": 1.3345699310302734,
+                        "z": 1.034295678138733
+                    },
+                    "tag": "",
+                    "Name": "Hood Fan_Mesh_HOOD_0014",
+                    "Location": [
+                        -27.4137,
+                        103.4296,
+                        133.457
+                    ],
+                    "Rotation": [
+                        0,
+                        5.3,
+                        -242.8
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim15",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Backsplash01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BACKSPLASH",
+                "surfacename": "BACKSPLASH",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BCK",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Backsplash_GroupID_12",
+                    "name": "Backsplash_GroupID_12",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0567823796283606,
+                        1.2442884628090478,
+                        1.941469744573335
+                    ],
+                    "Rot": [
+                        -3.8999999999999453,
+                        219.60000000000048
+                    ],
+                    "Distance": 0.9992835323387141,
+                    "pitch": -3.8999999999999453,
+                    "yaw": 219.60000000000048,
+                    "unreal_rot": [
+                        -3.8999999999999453,
+                        0,
+                        219.60000000000048
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -1.692274570465088,
+                        "y": 1.3122550249099731,
+                        "z": 1.173291563987732
+                    },
+                    "tag": "AR_BCK",
+                    "Name": "Backsplash_GroupID_12",
+                    "Location": [
+                        -169.2275,
+                        117.3292,
+                        131.2255
+                    ],
+                    "Rotation": [
+                        0,
+                        -3.9,
+                        -309.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "KITCHEN_SINK_0017",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "KITCHEN_SINK_0017",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_SNK",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Sink_Mesh_KITCHEN_SINK_0017",
+                    "name": "Sink_Mesh_KITCHEN_SINK_0017",
+                    "FOV": 55,
+                    "newPospivot": [
+                        0.019940267192682493,
+                        1.4748318872414479,
+                        1.6768919042867685
+                    ],
+                    "Rot": [
+                        -27.099999999999998,
+                        214.40000000000035
+                    ],
+                    "Distance": 0.030072610867048044,
+                    "pitch": -27.099999999999998,
+                    "yaw": 214.40000000000035,
+                    "unreal_rot": [
+                        -27.099999999999998,
+                        0,
+                        214.40000000000035
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.00481552304700017,
+                        "y": 1.4885313510894775,
+                        "z": 1.6548027992248535
+                    },
+                    "tag": "",
+                    "Name": "Sink_Mesh_KITCHEN_SINK_0017",
+                    "Location": [
+                        0.4816,
+                        165.4803,
+                        148.8531
+                    ],
+                    "Rotation": [
+                        0,
+                        -27.1,
+                        -304.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim14",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Backsplash02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BACKSPLASH",
+                "surfacename": "BACKSPLASH",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BCK",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Backsplash_GroupID_12",
+                    "name": "Backsplash_GroupID_12",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0567823796283606,
+                        1.2442884628090478,
+                        1.941469744573335
+                    ],
+                    "Rot": [
+                        -3.8999999999999453,
+                        219.60000000000048
+                    ],
+                    "Distance": 0.9992835323387141,
+                    "pitch": -3.8999999999999453,
+                    "yaw": 219.60000000000048,
+                    "unreal_rot": [
+                        -3.8999999999999453,
+                        0,
+                        219.60000000000048
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -1.692274570465088,
+                        "y": 1.3122550249099731,
+                        "z": 1.173291563987732
+                    },
+                    "tag": "AR_BCK",
+                    "Name": "Backsplash_GroupID_12",
+                    "Location": [
+                        -169.2275,
+                        117.3292,
+                        131.2255
+                    ],
+                    "Rotation": [
+                        0,
+                        -3.9,
+                        -309.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_TOE_02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB TOE",
+                "surfacename": "CAB_TOE_02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "WALL_OVEN_0013",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "WALL_OVEN_0013",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_OVN",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "TRIDEL OVN_Mesh_WALL_OVEN_0013",
+                    "name": "TRIDEL OVN_Mesh_WALL_OVEN_0013",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -2.224798970534334,
+                        1.1483270766677367,
+                        1.1706088458723887
+                    ],
+                    "Rot": [
+                        -7.899999999999943,
+                        208.0000000000011
+                    ],
+                    "Distance": 0.8741449999995414,
+                    "pitch": -7.899999999999943,
+                    "yaw": 208.0000000000011,
+                    "unreal_rot": [
+                        -7.899999999999943,
+                        0,
+                        208.0000000000011
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.6312904357910156,
+                        "y": 1.268473505973816,
+                        "z": 0.40610966086387634
+                    },
+                    "tag": "",
+                    "Name": "TRIDEL OVN_Mesh_WALL_OVEN_0013",
+                    "Location": [
+                        -263.129,
+                        40.611,
+                        126.8474
+                    ],
+                    "Rotation": [
+                        0,
+                        -7.9,
+                        -298
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_00933",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_00933",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_00733",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_00733",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim025",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ACCENT CABINET",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_GroupID_1",
+                    "name": "Tridel ACB_GroupID_1",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999453,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999453,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999453,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "",
+                    "Name": "Tridel ACB_GroupID_1",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_0238",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_0238",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim10",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Backsplash03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BACKSPLASH",
+                "surfacename": "BACKSPLASH",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BCK",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Backsplash_GroupID_12",
+                    "name": "Backsplash_GroupID_12",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0567823796283606,
+                        1.2442884628090478,
+                        1.941469744573335
+                    ],
+                    "Rot": [
+                        -3.8999999999999453,
+                        219.60000000000048
+                    ],
+                    "Distance": 0.9992835323387141,
+                    "pitch": -3.8999999999999453,
+                    "yaw": 219.60000000000048,
+                    "unreal_rot": [
+                        -3.8999999999999453,
+                        0,
+                        219.60000000000048
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -1.692274570465088,
+                        "y": 1.3122550249099731,
+                        "z": 1.173291563987732
+                    },
+                    "tag": "AR_BCK",
+                    "Name": "Backsplash_GroupID_12",
+                    "Location": [
+                        -169.2275,
+                        117.3292,
+                        131.2255
+                    ],
+                    "Rotation": [
+                        0,
+                        -3.9,
+                        -309.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_04",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_04",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim11",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_0073",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_0073",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_0063",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_0063",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim024",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x6_028",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X6_028",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim09",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ACCENT CABINET",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_GroupID_1",
+                    "name": "Tridel ACB_GroupID_1",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999453,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999453,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999453,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "",
+                    "Name": "Tridel ACB_GroupID_1",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim17",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_TOE_04",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB TOE",
+                "surfacename": "CAB_TOE_04",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "IslandCountertop03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "ISLANDCOUNTERTOP03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Woodstrip01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "WOODSTRIP01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "IslandCabinet02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ISLANDCABINET",
+                "surfacename": "ISLANDCABINET02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim023",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_0093",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_0093",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim07",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ACCENT CABINET",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_GroupID_1",
+                    "name": "Tridel ACB_GroupID_1",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999453,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999453,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999453,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "",
+                    "Name": "Tridel ACB_GroupID_1",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "IslandCabinet03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ISLANDCABINET",
+                "surfacename": "ISLANDCABINET03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "COUNTERTOP_01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "COUNTERTOP",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "STOVE_TOP_0092",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "STOVE TOP",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CKT",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cooktop_Mesh_STOVE_TOP_0092",
+                    "name": "Cooktop_Mesh_STOVE_TOP_0092",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8766107286950164,
+                        1.1436839439044788,
+                        2.171921314509775
+                    ],
+                    "Rot": [
+                        -31.09999999999998,
+                        152.80000000000024
+                    ],
+                    "Distance": 0.9270102108676235,
+                    "pitch": -31.09999999999998,
+                    "yaw": 152.80000000000024,
+                    "unreal_rot": [
+                        -31.09999999999998,
+                        0,
+                        152.80000000000024
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -0.5137808322906494,
+                        "y": 1.6225155591964722,
+                        "z": 1.4659308195114136
+                    },
+                    "tag": "AR_CKT",
+                    "Name": "Cooktop_Mesh_STOVE_TOP_0092",
+                    "Location": [
+                        -51.3781,
+                        146.5931,
+                        162.2516
+                    ],
+                    "Rotation": [
+                        0,
+                        -31.1,
+                        -242.8
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "REFRIGERATOR_0005",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "REFRIGERATOR",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_FRG",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Refrigerator_Mesh_REFRIGERATOR_0005",
+                    "name": "Refrigerator_Mesh_REFRIGERATOR_0005",
+                    "FOV": 55,
+                    "newPospivot": [
+                        2.0468464840330918,
+                        1.107615056083463,
+                        0.6796665071223855
+                    ],
+                    "Rot": [
+                        -4.699999999999947,
+                        144.4000000000011
+                    ],
+                    "Distance": 1.6293565416569211,
+                    "pitch": -4.699999999999947,
+                    "yaw": 144.4000000000011,
+                    "unreal_rot": [
+                        -4.699999999999947,
+                        0,
+                        144.4000000000011
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 2.992142915725708,
+                        "y": 1.2411221265792847,
+                        "z": -0.640709638595581
+                    },
+                    "tag": "AR_FRG",
+                    "Name": "Refrigerator_Mesh_REFRIGERATOR_0005",
+                    "Location": [
+                        299.2143,
+                        -64.071,
+                        124.1122
+                    ],
+                    "Rotation": [
+                        0,
+                        -4.7,
+                        -234.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_0236",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_0236",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "AR_",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Wall02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "WALL__17",
+                "surfacename": "WALL",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Wall_GroupID_17",
+                    "name": "Wall_GroupID_17",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.9397586420301507,
+                        1.1438466288682916,
+                        0.5227693679348555
+                    ],
+                    "Rot": [
+                        -3.9999999999999516,
+                        208.39999999999955
+                    ],
+                    "Distance": 2.256261247069188,
+                    "pitch": -3.9999999999999516,
+                    "yaw": 208.39999999999955,
+                    "unreal_rot": [
+                        -3.9999999999999516,
+                        0,
+                        208.39999999999955
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -3.010277032852173,
+                        "y": 1.3012354373931885,
+                        "z": -1.4571129083633423
+                    },
+                    "tag": "",
+                    "Name": "Wall_GroupID_17",
+                    "Location": [
+                        -301.0277,
+                        -145.7113,
+                        130.1235
+                    ],
+                    "Rotation": [
+                        0,
+                        -4,
+                        -298.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_24x12",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_24X12",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "AR_",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard07",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_WALL_0002_36x18x12",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB WALL  XX",
+                "surfacename": "CAB_WALL_0002_36X18X12",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_0069",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_0069",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim04",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x6_03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X6_03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_TOE_ISLAND_03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB TOE ISLAND",
+                "surfacename": "CAB_TOE_ISLAND_03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim05",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ACCENT CABINET",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_GroupID_1",
+                    "name": "Tridel ACB_GroupID_1",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999453,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999453,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999453,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "",
+                    "Name": "Tridel ACB_GroupID_1",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "WALL_OVEN_0037",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "WALL_OVEN_0037",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_SPD",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Microwave_Mesh_WALL_OVEN_0037",
+                    "name": "Microwave_Mesh_WALL_OVEN_0037",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -2.224798970534334,
+                        1.1483270766677367,
+                        1.1706088458723887
+                    ],
+                    "Rot": [
+                        -7.899999999999943,
+                        208.0000000000011
+                    ],
+                    "Distance": 0.8741449999995414,
+                    "pitch": -7.899999999999943,
+                    "yaw": 208.0000000000011,
+                    "unreal_rot": [
+                        -7.899999999999943,
+                        0,
+                        208.0000000000011
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.6312904357910156,
+                        "y": 1.268473505973816,
+                        "z": 0.40610966086387634
+                    },
+                    "tag": "",
+                    "Name": "Microwave_Mesh_WALL_OVEN_0037",
+                    "Location": [
+                        -263.129,
+                        40.611,
+                        126.8474
+                    ],
+                    "Rotation": [
+                        0,
+                        -7.9,
+                        -298
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim13",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "KITCHEN_FAUCET_0033",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "KITCHEN_FAUCET_0033",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_FCT",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Faucet_Mesh_KITCHEN_FAUCET_0033",
+                    "name": "Faucet_Mesh_KITCHEN_FAUCET_0033",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.04572033685267418,
+                        1.282469977587625,
+                        1.91617377760456
+                    ],
+                    "Rot": [
+                        -13.90000000000001,
+                        217.60000000000036
+                    ],
+                    "Distance": 0.40194561086695246,
+                    "pitch": -13.90000000000001,
+                    "yaw": 217.60000000000036,
+                    "unreal_rot": [
+                        -13.90000000000001,
+                        0,
+                        217.60000000000036
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -0.28378385305404663,
+                        "y": 1.379028558731079,
+                        "z": 1.6070419549942017
+                    },
+                    "tag": "",
+                    "Name": "Faucet_Mesh_KITCHEN_FAUCET_0033",
+                    "Location": [
+                        -28.3784,
+                        160.7042,
+                        137.9029
+                    ],
+                    "Rotation": [
+                        0,
+                        -13.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Wall04",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "WALL__17",
+                "surfacename": "WALL",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Wall_GroupID_17",
+                    "name": "Wall_GroupID_17",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.9397586420301507,
+                        1.1438466288682916,
+                        0.5227693679348555
+                    ],
+                    "Rot": [
+                        -3.9999999999999516,
+                        208.39999999999955
+                    ],
+                    "Distance": 2.256261247069188,
+                    "pitch": -3.9999999999999516,
+                    "yaw": 208.39999999999955,
+                    "unreal_rot": [
+                        -3.9999999999999516,
+                        0,
+                        208.39999999999955
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -3.010277032852173,
+                        "y": 1.3012354373931885,
+                        "z": -1.4571129083633423
+                    },
+                    "tag": "",
+                    "Name": "Wall_GroupID_17",
+                    "Location": [
+                        -301.0277,
+                        -145.7113,
+                        130.1235
+                    ],
+                    "Rotation": [
+                        0,
+                        -4,
+                        -298.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim12",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard009",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_TOE_ISLAND_01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB TOE ISLAND",
+                "surfacename": "CAB_TOE_ISLAND_01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "COUNTERTOP_002",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "COUNTERTOP",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim29",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "COUNTERTOP_0003",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "COUNTERTOP",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Floor01",
+                "floor": "",
+                "room": " ",
+                "surfacegroupname": "",
+                "surfacename": "FLOOR",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_FLR",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Floor_Mesh_Floor01",
+                    "name": "Floor_Mesh_Floor01",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.5977913473519378,
+                        0.6934416522463906,
+                        -0.5451261118380781
+                    ],
+                    "Rot": [
+                        -14.399999999999949,
+                        246.0000000000001
+                    ],
+                    "Distance": 0.640777861426737,
+                    "pitch": -14.399999999999949,
+                    "yaw": 246.0000000000001,
+                    "unreal_rot": [
+                        -14.399999999999949,
+                        0,
+                        246.0000000000001
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1647801399230957,
+                        "y": 0.8527966141700745,
+                        "z": -0.7975658774375916
+                    },
+                    "tag": "WH_FLR",
+                    "Name": "Floor_Mesh_Floor01",
+                    "Location": [
+                        -216.478,
+                        -79.7566,
+                        85.2797
+                    ],
+                    "Rotation": [
+                        0,
+                        -14.4,
+                        -336
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "IslandCountertop01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "COUNTER TOP",
+                "surfacename": "ISLANDCOUNTERTOP01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CTP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Countertop_GroupID_16",
+                    "name": "Countertop_GroupID_16",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.020751484660211,
+                        0.9367106559384785,
+                        0.8864907481545214
+                    ],
+                    "Rot": [
+                        -22.39999999999998,
+                        221.5999999999999
+                    ],
+                    "Distance": 1.8426420467880045,
+                    "pitch": -22.39999999999998,
+                    "yaw": 221.5999999999999,
+                    "unreal_rot": [
+                        -22.39999999999998,
+                        0,
+                        221.5999999999999
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1518211364746094,
+                        "y": 1.6388869285583496,
+                        "z": -0.38746362924575806
+                    },
+                    "tag": "AR_CTP",
+                    "Name": "Countertop_GroupID_16",
+                    "Location": [
+                        -215.1821,
+                        -38.7464,
+                        163.8887
+                    ],
+                    "Rotation": [
+                        0,
+                        -22.4,
+                        -311.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "GlassRailing01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "GLASSRAILING01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_STA",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "UpperCabinet02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "UPPERCABINET",
+                "surfacename": "UPPERCABINET02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Upper Cabinet Door_GroupID_11",
+                    "name": "Upper Cabinet Door_GroupID_11",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.785087092292357,
+                        0.9147668980149257,
+                        1.742637289417512
+                    ],
+                    "Rot": [
+                        -8.299999999999947,
+                        203.60000000000062
+                    ],
+                    "Distance": 3.542260581491631,
+                    "pitch": -8.299999999999947,
+                    "yaw": 203.60000000000062,
+                    "unreal_rot": [
+                        -8.299999999999947,
+                        0,
+                        203.60000000000062
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1883738040924072,
+                        "y": 1.4261142015457153,
+                        "z": -1.469359040260315
+                    },
+                    "tag": "KT_CDU",
+                    "Name": "Upper Cabinet Door_GroupID_11",
+                    "Location": [
+                        -218.8374,
+                        -146.9359,
+                        142.6114
+                    ],
+                    "Rotation": [
+                        0,
+                        -8.3,
+                        -293.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Wall01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "WALL__17",
+                "surfacename": "WALL",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Wall_GroupID_17",
+                    "name": "Wall_GroupID_17",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.9397586420301507,
+                        1.1438466288682916,
+                        0.5227693679348555
+                    ],
+                    "Rot": [
+                        -3.9999999999999516,
+                        208.39999999999955
+                    ],
+                    "Distance": 2.256261247069188,
+                    "pitch": -3.9999999999999516,
+                    "yaw": 208.39999999999955,
+                    "unreal_rot": [
+                        -3.9999999999999516,
+                        0,
+                        208.39999999999955
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -3.010277032852173,
+                        "y": 1.3012354373931885,
+                        "z": -1.4571129083633423
+                    },
+                    "tag": "",
+                    "Name": "Wall_GroupID_17",
+                    "Location": [
+                        -301.0277,
+                        -145.7113,
+                        130.1235
+                    ],
+                    "Rotation": [
+                        0,
+                        -4,
+                        -298.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_32x28_01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_32X28_01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "AR_",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard008",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_36x18_02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "CAB_DOOR_0103_36X18_02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_Mesh_CAB_DOOR_0103_36x18_02",
+                    "name": "Tridel ACB_Mesh_CAB_DOOR_0103_36x18_02",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999446,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999446,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999446,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "KT_ACB",
+                    "Name": "Tridel ACB_Mesh_CAB_DOOR_0103_36x18_02",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_WALL_0002_36x18x12_2",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB WALL  XX",
+                "surfacename": "CAB_WALL_0002_36X18X12_2",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard05",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_WALL_0002_24x18x12",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB WALL  XX",
+                "surfacename": "CAB_WALL_0002_24X18X12",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Balcony01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "BALCONY",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_FLR",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "UpperCabinet01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "UPPERCABINET",
+                "surfacename": "UPPERCABINET01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Upper Cabinet Door_GroupID_11",
+                    "name": "Upper Cabinet Door_GroupID_11",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.785087092292357,
+                        0.9147668980149257,
+                        1.742637289417512
+                    ],
+                    "Rot": [
+                        -8.299999999999947,
+                        203.60000000000062
+                    ],
+                    "Distance": 3.542260581491631,
+                    "pitch": -8.299999999999947,
+                    "yaw": 203.60000000000062,
+                    "unreal_rot": [
+                        -8.299999999999947,
+                        0,
+                        203.60000000000062
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1883738040924072,
+                        "y": 1.4261142015457153,
+                        "z": -1.469359040260315
+                    },
+                    "tag": "",
+                    "Name": "Upper Cabinet Door_GroupID_11",
+                    "Location": [
+                        -218.8374,
+                        -146.9359,
+                        142.6114
+                    ],
+                    "Rotation": [
+                        0,
+                        -8.3,
+                        -293.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_24x18",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "CAB_DOOR_0103_24X18",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_Mesh_CAB_DOOR_0103_24x18",
+                    "name": "Tridel ACB_Mesh_CAB_DOOR_0103_24x18",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999446,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999446,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999446,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "KT_ACB",
+                    "Name": "Tridel ACB_Mesh_CAB_DOOR_0103_24x18",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "SLAB001",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "SLAB001",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_40x12",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_40X12",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "LivingWalls03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "WALL__17",
+                "surfacename": "LIVINGWALLS03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Wall_GroupID_17",
+                    "name": "Wall_GroupID_17",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.9397586420301507,
+                        1.1438466288682916,
+                        0.5227693679348555
+                    ],
+                    "Rot": [
+                        -3.9999999999999516,
+                        208.39999999999955
+                    ],
+                    "Distance": 2.256261247069188,
+                    "pitch": -3.9999999999999516,
+                    "yaw": 208.39999999999955,
+                    "unreal_rot": [
+                        -3.9999999999999516,
+                        0,
+                        208.39999999999955
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -3.010277032852173,
+                        "y": 1.3012354373931885,
+                        "z": -1.4571129083633423
+                    },
+                    "tag": "",
+                    "Name": "Wall_GroupID_17",
+                    "Location": [
+                        -301.0277,
+                        -145.7113,
+                        130.1235
+                    ],
+                    "Rotation": [
+                        0,
+                        -4,
+                        -298.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Filler01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "FILLER01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CAP",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x15",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X15",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_38x7",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_38X7",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "ExteriorWall01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "EXTERIORWALL01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_PANTRY_0003_30x94x24",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "CAB_PANTRY_0003_30X94X24",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Upper Cabinet Door_Mesh_CAB_PANTRY_0003_30x94x24",
+                    "name": "Upper Cabinet Door_Mesh_CAB_PANTRY_0003_30x94x24",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.785087092292357,
+                        0.9147668980149257,
+                        1.742637289417512
+                    ],
+                    "Rot": [
+                        -8.299999999999947,
+                        203.60000000000062
+                    ],
+                    "Distance": 3.542260581491631,
+                    "pitch": -8.299999999999947,
+                    "yaw": 203.60000000000062,
+                    "unreal_rot": [
+                        -8.299999999999947,
+                        0,
+                        203.60000000000062
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1883738040924072,
+                        "y": 1.4261142015457153,
+                        "z": -1.469359040260315
+                    },
+                    "tag": "AR_CDU",
+                    "Name": "Upper Cabinet Door_Mesh_CAB_PANTRY_0003_30x94x24",
+                    "Location": [
+                        -218.8374,
+                        -146.9359,
+                        142.6114
+                    ],
+                    "Rotation": [
+                        0,
+                        -8.3,
+                        -293.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "LowerCabinet03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "LOWERCABINET",
+                "surfacename": "LOWERCABINET03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Ceiling17",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CEILING",
+                "surfacename": "CEILING",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CEL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_38x15_01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_38X15_01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_36x18",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "CAB_DOOR_0103_36X18",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_Mesh_CAB_DOOR_0103_36x18",
+                    "name": "Tridel ACB_Mesh_CAB_DOOR_0103_36x18",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999446,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999446,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999446,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "KT_ACB",
+                    "Name": "Tridel ACB_Mesh_CAB_DOOR_0103_36x18",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Baseboard01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "BASEBOARD",
+                "surfacename": "BASEBOARD",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_BAS",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_40x12_02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_40X12_02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "LowerCabinet01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "LOWERCABINET",
+                "surfacename": "LOWERCABINET01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CBL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Upper Cabinet Door_Mesh_LowerCabinet01",
+                    "name": "Upper Cabinet Door_Mesh_LowerCabinet01",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.521623575921718,
+                        0.9729967633392032,
+                        1.4556026835804499
+                    ],
+                    "Rot": [
+                        -6.299999999999946,
+                        146.0000000000005
+                    ],
+                    "Distance": 3.2750190287459606,
+                    "pitch": -6.299999999999946,
+                    "yaw": 146.0000000000005,
+                    "unreal_rot": [
+                        -6.299999999999946,
+                        0,
+                        146.0000000000005
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 1.2986842393875122,
+                        "y": 1.3323787450790405,
+                        "z": -1.2431144714355469
+                    },
+                    "tag": "",
+                    "Name": "Upper Cabinet Door_Mesh_LowerCabinet01",
+                    "Location": [
+                        129.8684,
+                        -124.3114,
+                        133.2379
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.3,
+                        -236
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Railing01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "RAILING",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_RAI",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_32x28_002",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_32X28_002",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_00931",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_00931",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Frame03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "FRAME",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WIF",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Ceiling021",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CEILING",
+                "surfacename": "CEILING",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CEL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_38x8",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_38X8",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_38x15_002",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_38X15_002",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim28",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_32x28_003",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_32X28_003",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim00",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_TOE_ISLAND_02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB TOE ISLAND",
+                "surfacename": "CAB_TOE_ISLAND_02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "UpperCabinet03",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "UPPERCABINET",
+                "surfacename": "UPPERCABINET03",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Upper Cabinet Door_GroupID_11",
+                    "name": "Upper Cabinet Door_GroupID_11",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.785087092292357,
+                        0.9147668980149257,
+                        1.742637289417512
+                    ],
+                    "Rot": [
+                        -8.299999999999947,
+                        203.60000000000062
+                    ],
+                    "Distance": 3.542260581491631,
+                    "pitch": -8.299999999999947,
+                    "yaw": 203.60000000000062,
+                    "unreal_rot": [
+                        -8.299999999999947,
+                        0,
+                        203.60000000000062
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.1883738040924072,
+                        "y": 1.4261142015457153,
+                        "z": -1.469359040260315
+                    },
+                    "tag": "",
+                    "Name": "Upper Cabinet Door_GroupID_11",
+                    "Location": [
+                        -218.8374,
+                        -146.9359,
+                        142.6114
+                    ],
+                    "Rotation": [
+                        0,
+                        -8.3,
+                        -293.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "SilverTrim01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "SILVERTRIM01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_LOT",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "BulkheadWall01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "WALL__17",
+                "surfacename": "BULKHEADWALL01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_WAL",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Wall_GroupID_17",
+                    "name": "Wall_GroupID_17",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.9397586420301507,
+                        1.1438466288682916,
+                        0.5227693679348555
+                    ],
+                    "Rot": [
+                        -3.9999999999999516,
+                        208.39999999999955
+                    ],
+                    "Distance": 2.256261247069188,
+                    "pitch": -3.9999999999999516,
+                    "yaw": 208.39999999999955,
+                    "unreal_rot": [
+                        -3.9999999999999516,
+                        0,
+                        208.39999999999955
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -3.010277032852173,
+                        "y": 1.3012354373931885,
+                        "z": -1.4571129083633423
+                    },
+                    "tag": "",
+                    "Name": "Wall_GroupID_17",
+                    "Location": [
+                        -301.0277,
+                        -145.7113,
+                        130.1235
+                    ],
+                    "Rotation": [
+                        0,
+                        -4,
+                        -298.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_38x15_02",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_38X15_02",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim06",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ACCENT CABINET",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_ACB",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Tridel ACB_GroupID_1",
+                    "name": "Tridel ACB_GroupID_1",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -0.8918050472831471,
+                        1.4352817882925368,
+                        1.8235744805662142
+                    ],
+                    "Rot": [
+                        -1.8999999999999453,
+                        217.6
+                    ],
+                    "Distance": 1.8434027665390054,
+                    "pitch": -1.8999999999999453,
+                    "yaw": 217.6,
+                    "unreal_rot": [
+                        -1.8999999999999453,
+                        0,
+                        217.6
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.015929937362671,
+                        "y": 1.4964001178741455,
+                        "z": 0.36386847496032715
+                    },
+                    "tag": "",
+                    "Name": "Tridel ACB_GroupID_1",
+                    "Location": [
+                        -201.593,
+                        36.3868,
+                        149.64
+                    ],
+                    "Rotation": [
+                        0,
+                        -1.9,
+                        -307.6
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim08",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim012",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_0061",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_0061",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "DISHWASHER_0008",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "",
+                "surfacename": "DISHWASHER",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_DWH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Dishwasher_Mesh_DISHWASHER_0008",
+                    "name": "Dishwasher_Mesh_DISHWASHER_0008",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.2199375139026318,
+                        1.3495505077384695,
+                        0.9764616226172058
+                    ],
+                    "Rot": [
+                        -29.49999999999994,
+                        214.00000000000108
+                    ],
+                    "Distance": -0.10346300000040798,
+                    "pitch": -29.49999999999994,
+                    "yaw": 214.00000000000108,
+                    "unreal_rot": [
+                        -29.49999999999994,
+                        0,
+                        214.00000000000108
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -1.1695823669433594,
+                        "y": 1.2986029386520386,
+                        "z": 1.0511161088943481
+                    },
+                    "tag": "",
+                    "Name": "Dishwasher_Mesh_DISHWASHER_0008",
+                    "Location": [
+                        -116.9582,
+                        105.1116,
+                        129.8603
+                    ],
+                    "Rotation": [
+                        0,
+                        -29.5,
+                        -304
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_0233",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_0233",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "IslandCabinet01",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "ISLANDCABINET",
+                "surfacename": "ISLANDCABINET01",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x12_036",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X12_036",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "Trim022",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "TRIM__8",
+                "surfacename": "TRIM",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {},
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "UpperCabinet004",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "UPPERCABINET",
+                "surfacename": "UPPERCABINET004",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": null,
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "HANDLE_00731",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "HANDLE",
+                "surfacename": "HANDLE_00731",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDH",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "Cabinet Door Handle_GroupID_8",
+                    "name": "Cabinet Door Handle_GroupID_8",
+                    "FOV": 60,
+                    "newPospivot": [
+                        1.1388903283500265,
+                        2.355135026891454,
+                        0.3808683350886011
+                    ],
+                    "Rot": [
+                        -19.199999999999967,
+                        512.3999999999996
+                    ],
+                    "Distance": -1.2396433333338548,
+                    "pitch": -19.199999999999967,
+                    "yaw": 512.3999999999996,
+                    "unreal_rot": [
+                        -19.199999999999967,
+                        0,
+                        512.3999999999996
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": 0.5965143442153931,
+                        "y": 1.9474576711654663,
+                        "z": 1.4183378219604492
+                    },
+                    "tag": "",
+                    "Name": "Cabinet Door Handle_GroupID_8",
+                    "Location": [
+                        59.6514,
+                        141.8338,
+                        194.7458
+                    ],
+                    "Rotation": [
+                        0,
+                        -19.2,
+                        -602.4
+                    ],
+                    "FieldOfView": 60,
+                    "Tag": "KT_CDH"
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            },
+            {
+                "meshName": "CAB_DOOR_0103_30x6_06",
+                "floor": "",
+                "room": "",
+                "surfacegroupname": "CAB DOOR  X",
+                "surfacename": "CAB_DOOR_0103_30X6_06",
+                "mastersurfacegroupname": null,
+                "surfacetag": "AR_CDU",
+                "material": null,
+                "mappingSize": "",
+                "mapOffset": "0,0",
+                "mapOrientation": "0",
+                "surfacecamera": {
+                    "id": "CAB DOOR  X_GroupID_3",
+                    "name": "CAB DOOR  X_GroupID_3",
+                    "FOV": 55,
+                    "newPospivot": [
+                        -1.0553275794786747,
+                        1.1845667934679098,
+                        1.9256428051399532
+                    ],
+                    "Rot": [
+                        -6.699999999999947,
+                        210.40000000000074
+                    ],
+                    "Distance": 2.7727320632956567,
+                    "pitch": -6.699999999999947,
+                    "yaw": 210.40000000000074,
+                    "unreal_rot": [
+                        -6.699999999999947,
+                        0,
+                        210.40000000000074
+                    ],
+                    "type": "surface",
+                    "max_position": {
+                        "x": -2.4488413333892822,
+                        "y": 1.5080634355545044,
+                        "z": -0.44954389333724976
+                    },
+                    "tag": "",
+                    "Name": "CAB DOOR  X_GroupID_3",
+                    "Location": [
+                        -244.8841,
+                        -44.9544,
+                        150.8063
+                    ],
+                    "Rotation": [
+                        0,
+                        -6.7,
+                        -300.4
+                    ],
+                    "FieldOfView": 55
+                },
+                "roomcamera": null,
+                "spline": null,
+                "proxyId": "0",
+                "size": null,
+                "position": null
+            }
+        ],
+        "roomList": [
+            {
+                "id": "room_camera_Untagged",
+                "name": "StartCam",
+                "FOV": 55,
+                "newPospivot": [
+                    -0.3717243813330857,
+                    1.4543793004452312,
+                    1.6770489811774771
+                ],
+                "Rot": [
+                    -8.299999999999969,
+                    222.80000000000024
+                ],
+                "Distance": 3.583255767795235,
+                "pitch": -8.299999999999969,
+                "yaw": 222.80000000000024,
+                "unreal_rot": [
+                    -8.299999999999969,
+                    0,
+                    222.80000000000024
+                ],
+                "type": "surface",
+                "max_position": {
+                    "x": -2.7808358669281006,
+                    "y": 1.9716445207595825,
+                    "z": -0.9245545268058777
+                },
+                "tag": "AR",
+                "Name": "StartCam",
+                "Location": [
+                    -278.0836,
+                    -92.4555,
+                    197.1645
+                ],
+                "Rotation": [
+                    0,
+                    -8.3,
+                    -312.8
+                ],
+                "FieldOfView": 55
+            }
+        ]
+    },
+    "version": "asdasd",
     "scenes": [
-        "C:\\Users\\theKgEEker\\Desktop\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM.udatasmith",
-        "C:\\Users\\theKgEEker\\Desktop\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM\\FURNITURE.udatasmith"
+        {
+            "path": "C:\\Users\\theKgEEker\\Desktop\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM.udatasmith",
+            "addMaterial": false
+        },
+        {
+            "path": "C:\\Users\\theKgEEker\\Desktop\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM\\FURNITURE.udatasmith",
+            "addMaterial": false
+        }
     ],
     "structure": "C:\\Users\\theKgEEker\\Desktop\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM.udatasmith",
     "furniture": "C:\\Users\\theKgEEker\\Desktop\\4374b8_banffiii_webgl_16-webgl_3Sept2021123527PM\\FURNITURE.udatasmith",
     "engine": "C:\\Program Files\\Epic Games\\UE_4.26\\Engine\\Binaries\\Win64\\UE4Editor.exe",
     "template": "./Template",
-    "output": "C:\\output"
+    "output": "C:\\Users\\theKgEEker\\Desktop",
+    "movableTags": [
+        "CDU",
+        "DOH",
+        "FCT",
+        "SNK",
+        "SHP",
+        "PPG",
+        "TOL",
+        "SHH",
+        "DOR",
+        "CDL",
+        "CDI",
+        "BCK",
+        "OVN",
+        "CTP",
+        "FAN",
+        "FRG",
+        "DWH",
+        "STV"
+    ],
+    "addCollision": true,
+    "createPak": false
 }

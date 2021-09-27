@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http://cdnjs.cloudflare.com ">
   <title>Unreal Scene Creator</title>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -32,6 +32,9 @@
         <span class="formbuilder-required">*</span>
       </label>
       <input type="text" placeholder="39772" name="dam_scene_id" id="dam_scene_id" required="required">
+      <br>
+      <label for="selection_id_scene">Selection ID</label>
+      <input type="text" name="selection_id_scene" id="selection_id_scene" disabled>
     </div>
 
 
@@ -46,9 +49,6 @@
       <br>
       <label for="add_material_scene_checkbox">Import Material</label>
       <input type="checkbox" name="add_material_scene_checkbox" id="add_material_scene_checkbox">
-      <br>
-      <label for="selection_id_scene">Selection ID</label>
-      <input type="text" name="selection_id_scene" id="selection_id_scene" disabled>
     </div>
 
     <!--------------------------------------------------------------------------------------------------------------->
@@ -57,11 +57,6 @@
       <button id="furniture_datasmith_btn">Select .udatasmith file</button>
       <p id="selected_furniture_datasmith_path"></p>
       <br>
-      <label for="add_material_furniture_checkbox">Import Material</label>
-      <input type="checkbox" name="add_material_furniture_checkbox" id="add_material_furniture_checkbox">
-      <br>
-      <label for="selection_id_furniture">Selection ID</label>
-      <input type="text" name="selection_id_furniture" id="selection_id_furniture" disabled>
     </div>
 
     <div class="form-item link-block">

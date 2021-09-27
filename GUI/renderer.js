@@ -1,8 +1,7 @@
 // Plugins
 const fs = require('fs-extra')
-const { shell } = require('electron');
-const { ipcRenderer } = require('electron');
-const fetch = require('node-fetch');
+const { shell, ipcRenderer } = require('electron');
+
 
 // const { PythonShell } = require('python-shell');
 // HTML Elements
@@ -107,29 +106,6 @@ function createUnrealScene() {
     });
 }
 
-document.getElementById('testJsonButton').addEventListener('click', () => {
-    if (!validateProjectName()) return;
-    if (!validateDamSceneId()) return;
-    if (!validateProjectVersion()) return;
-    if (!validateUnrealVersion()) return;
-    if (!validateSceneDataSmithPath()) return;
-    if (!validateOutputFolder()) return;
-    fetch(`http://api.aareas.com/api/Scene/GetSceneMeta/${DAM_SCENE_ID}`).then(res => res.json()).then(data => {
-        if (data.responseStatus != 1) {
-            showErrorMessage('No such scene id was found in DAM\'s database. Please double check');
-            return;
-        }
-        else {
-            const json = generateJsonContent();
-            console.log(json);
-        }
-    })
-    .catch(err => {
-        showErrorMessage('Cannot get data from this DAM Scene ID: ', DAM_SCENE_ID);
-    });
-    
-});
-
 ADD_COLLISION_INPUT.addEventListener('change', () => {
     TO_ADD_COLLISION = !TO_ADD_COLLISION;
 });
@@ -228,6 +204,7 @@ function validateDamSceneId() {
     try {
         let damSceneId = parseInt(DAM_SCENE_ID_INPUT.value);
         if (!isNaN(damSceneId)) {
+            DAM_SCENE_ID = damSceneId;
             return true;
         }
         else {
