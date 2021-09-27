@@ -16,7 +16,15 @@
       <label>Project Name
         <span class="formbuilder-required">*</span>
       </label>
-      <input type="text" placeholder="ex: 4378H_Ensuite_abc123" name="project_name" id="project_name" required="required">
+      <input type="text" placeholder="ex: 4378H_Ensuite_abc123" name="project_name" id="project_name"
+        required="required">
+    </div>
+
+    <div class="form-item">
+      <label>Project Version
+        <span class="formbuilder-required">*</span>
+      </label>
+      <input type="text" placeholder="ex: 10.0" name="project_version" id="project_version" required="required">
     </div>
 
     <div class="form-item">
@@ -26,48 +34,43 @@
       <input type="text" placeholder="39772" name="dam_scene_id" id="dam_scene_id" required="required">
     </div>
 
-    <div class="form-item">
-      <label>Version
-        <span class="formbuilder-required">*</span>
-      </label>
-      <input type="text" placeholder="ex: 10.0" name="project_version" id="project_version" required="required">
-    </div>
 
 
+    <!--------------------------------------------------------------------------------------------------------------->
     <div class="form-item link-block">
       <label>Scene Datasmith File
         <span class="formbuilder-required">*</span>
       </label>
       <button id="scene_datasmith_btn">Select .udatasmith file</button>
       <p id="selected_scene_datasmith_path"></p>
+      <br>
+      <label for="add_material_scene_checkbox">Import Material</label>
+      <input type="checkbox" name="add_material_scene_checkbox" id="add_material_scene_checkbox">
+      <br>
+      <label for="selection_id_scene">Selection ID</label>
+      <input type="text" name="selection_id_scene" id="selection_id_scene" disabled>
     </div>
 
-
+    <!--------------------------------------------------------------------------------------------------------------->
     <div class="form-item link-block">
       <label>Furniture Datasmith File</label>
       <button id="furniture_datasmith_btn">Select .udatasmith file</button>
       <p id="selected_furniture_datasmith_path"></p>
+      <br>
+      <label for="add_material_furniture_checkbox">Import Material</label>
+      <input type="checkbox" name="add_material_furniture_checkbox" id="add_material_furniture_checkbox">
+      <br>
+      <label for="selection_id_furniture">Selection ID</label>
+      <input type="text" name="selection_id_furniture" id="selection_id_furniture" disabled>
     </div>
-
-
-    <div class="form-item">
-      <label>Unreal Version
-        <span class="formbuilder-required">*</span></label>
-      <select name="unreal-version" id="unreal-version" required="required" aria-required="true">
-        <option value="4.26" selected="true" id="unreal-version-0">4.26</option>
-        <!-- <option value="4.27" id="unreal-version-1">4.27</option>
-        <option value="5.0" id="unreal-version-2">5.0</option> -->
-      </select>
-    </div>
-
 
     <div class="form-item link-block">
-      <label>Template Folder (Optional)</label>
+      <label>Template Folder</label>
       <button id="template_folder_button">Select template folder</button>
       <p id="template_folder_text">./Template</p>
     </div>
 
-
+    <!--------------------------------------------------------------------------------------------------------------->
     <div class="form-item link-block">
       <label>Output Folder
         <span class="formbuilder-required">*</span>
@@ -76,12 +79,40 @@
       <p id="output_folder_text"></p>
     </div>
 
+    <div class="form-item link-block">
+      <label>Unreal Version
+        <span class="formbuilder-required">*</span></label>
+      <select name="unreal-version" id="unreal-version" required="required" aria-required="true">
+        <option value="4.26" selected="true" id="unreal-version-0">4.26</option>
+        <!-- <option value="4.27" id="unreal-version-1">4.27</option>
+        <option value="5.0" id="unreal-version-2">5.0</option> -->
+      </select>
+      <br>
 
-    <div class="form-item">
-      <button type="button" name="createSceneButton" id="createSceneButton">Create scene</button>
+      <!--------------------------------------------------------------------------------------------------------------->
+      <label for="">Add Collision</label>
+      <input type="checkbox" name="add_collision_input" id="add_collision_input" checked>
+      <br>
+
+      <label for="create_pak_input">Create PAK</label>
+      <input type="checkbox" name="create_pak_input" id="create_pak_input">
     </div>
 
-    <button id="debug_button">DEBUG</button>
+    <div class="form-item">
+      <button type="button" id="createSceneButton">Create scene</button>
+    </div>
+
+    <!--------------------------------------------------------------------------------------------------------------->
+    <br><br>
+    <hr>
+    <!-- <label>Upload JSON</label>
+    <input type="file"> -->
+
+    <div id="debug_section">
+      <!-- <button type="button" id="testJsonButton">Test JSON Content (View in DevTools)</button> -->
+      <button id="debug_button">Open DevTools</button>
+    </div>
+    
   </div>
 
   <!-- You can also require other files to run in this process -->
